@@ -6,3 +6,10 @@ https://medium.com/heptagon/step-by-step-guide-to-build-a-dapp-a-homo-sapiens-2-
 
 
 http://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial
+
+
+
+Офф русифицированная  дока по Solidity  - https://github.com/ethereum/wiki/wiki/%5BRussian%5D-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-Solidity
+
+
+IDE - https://github.com/ethereum/remix-ide
