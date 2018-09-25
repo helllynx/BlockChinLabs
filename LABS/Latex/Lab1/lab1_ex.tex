@@ -169,6 +169,67 @@ var Election = artifacts.require("./Election.sol");
 \end{lstlisting}
 
 
+После добавления новой миграции, ее нужно применить выполнив:
+
+\begin{lstlisting}
+$ truffle migrate
+\end{lstlisting}
+
+В консоли должно быть что то подобное:
+
+\begin{lstlisting}
+Compiling ./contracts/Election.sol...
+Compiling ./contracts/Migrations.sol...
+^----------------------^
+
+Writing artifacts to ./build/contracts
+
+Using network 'development'.
+
+Running migration: 1_initial_migration.js
+Deploying Migrations...
+... 0x8c07a54c548ed49128b8fb2d17fa071b118019b6590536efd1fc2f0d49d3a850
+Migrations: 0x24a632b41f13d45b189670ed3730ef610cb2bd29
+Saving successful migration to network...
+... 0x8c3023da63417b2debfcdeedefb78ca379aced324ac8d688335f7ce0dcfd37bc
+Saving artifacts...
+Running migration: 2_deploy_contracts.js
+Deploying Election...
+... 0xd53622e3735d4284f19b2b751913f251983e3f4163abb35daf1bb30a199c17df
+Election: 0x850643f300b2516518d4c7b7f093e107957fcc17
+Saving successful migration to network...
+... 0xbafe0c2afb2fe2639500e8ba03e7b2fd13cda795cdabdad8f585bef2ab14cf59
+Saving artifacts...
+\end{lstlisting}
+
+Можно протестировать в консоли, как работает наш модуль:
+
+
+\begin{lstlisting}
+$ truffle console
+\end{lstlisting}
+
+Создадим инстанс смарт-контракта и попробуем считать имя первого кандидата:
+
+\begin{lstlisting}
+>> Election.deployed().then(function(instance) { app = instance })
+\end{lstlisting}
+
+Сдесь \hl{Election} это имя переменной которая была создана в файле миграций.
+Мы получили инстанс контракта из фунции \hl{deploted()}.
+
+После этого, можно считать переменные:
+
+\begin{lstlisting}
+>> app.candidate()
+	// => 'Candidate 1'
+\end{lstlisting}
+
+
+Вот и все, первый смарт-контракт готов!) Congratulations!
+
+
+
 \begin{thebibliography}{9}
 
 	\bibitem{lamport94}
