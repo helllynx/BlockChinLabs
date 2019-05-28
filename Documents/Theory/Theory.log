@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.18)  18 DEC 2018 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.27)  30 OCT 2018 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lab1_ex.tex
-(./lab1_ex.tex
+**Theory.tex
+(./Theory.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -26,6 +26,42 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count88
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 74.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
@@ -333,49 +369,6 @@ Now handling font encoding OMX ...
 ... no UTF-8 mapping file for font encoding OMX
 Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count87
-\U@D=\dimen103
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count88
-)
-
-Package babel Warning: No Cyrillic font encoding has been loaded so far.
-(babel)                A font encoding should be declared before babel.
-(babel)                Default `T2A' encoding will be loaded  on input line 74.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
-File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
@@ -567,46 +560,28 @@ File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
 ))
-Package babel Info: Making " an active character on input line 120.
-Package babel Info: Default for \cyrdash is provided on input line 157.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
-\Gm@bindingoffset=\dimen104
-\Gm@wd@mp=\dimen105
-\Gm@odd@mp=\dimen106
-\Gm@even@mp=\dimen107
-\Gm@layoutwidth=\dimen108
-\Gm@layoutheight=\dimen109
-\Gm@layouthoffset=\dimen110
-\Gm@layoutvoffset=\dimen111
-\Gm@dimlist=\toks17
-)
 (/usr/share/texlive/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
@@ -631,7 +606,33 @@ Package etexcmds Info: Could not find \expanded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@dirtytalk@qdepth=\count92
+\c@dirtytalk@qdepth=\count89
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -762,105 +763,42 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count103
-\lst@gtempboxa=\box26
-\lst@token=\toks18
-\lst@length=\count104
-\lst@currlwidth=\dimen118
-\lst@column=\count105
-\lst@pos=\count106
-\lst@lostspace=\dimen119
-\lst@width=\dimen120
-\lst@newlines=\count107
-\lst@lineno=\count108
-\lst@maxwidth=\dimen121
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count109
-\lst@skipnumbers=\count110
-\lst@framebox=\box27
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks19
-\SOUL@lasttoken=\toks20
-\SOUL@cmds=\toks21
-\SOUL@buffer=\toks22
-\SOUL@token=\toks23
-\SOUL@spaceskip=\skip44
-\SOUL@ttwidth=\dimen122
-\SOUL@uldp=\dimen123
-\SOUL@ulht=\dimen124
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(./lab1_ex.aux
+(./Theory.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `lab1_ex.aux'.
+\openout1 = `Theory.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 13.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for T2A+ptm on input line 54.
-LaTeX Font Info:    No file T2Aptm.fd. on input line 54.
+LaTeX Font Info:    Try loading font information for T2A+ptm on input line 13.
+LaTeX Font Info:    No file T2Aptm.fd. on input line 13.
 
 
 LaTeX Font Warning: Font shape `T2A/ptm/m/n' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 54.
+(Font)              using `T2A/cmr/m/n' instead on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -898,17 +836,17 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/n' undefined
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen125
-\scratchbox=\box28
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen126
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count103
+\scratchdimen=\dimen118
+\scratchbox=\box26
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen119
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -926,8 +864,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 54.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -935,64 +873,92 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count117
+\c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
-(./lab1_ex.out) (./lab1_ex.out)
+(./Theory.out) (./Theory.out)
 \@outlinefile=\write3
-\openout3 = `lab1_ex.out'.
+\openout3 = `Theory.out'.
 
-\c@lstlisting=\count118
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 63.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 63.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 63.
+(Font)              <6> on input line 18.
 
 
 LaTeX Warning: No \author given.
 
 
 LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 67.
+(Font)              using `T2A/ptm/m/n' instead on input line 23.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 72.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 76.
+(babel)             in language  on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 41.
+<./img/scheme_1.png, id=36, 1272.755pt x 933.4875pt>
+File: ./img/scheme_1.png Graphic file (type png)
+<use ./img/scheme_1.png>
+Package pdftex.def Info: ./img/scheme_1.png  used on input line 47.
+(pdftex.def)             Requested size: 318.18797pt x 233.3713pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 53.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 53.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./img/scheme_2.png, id=47, 1286.8075pt x 303.1325pt>
+File: ./img/scheme_2.png Graphic file (type png)
+<use ./img/scheme_2.png>
+Package pdftex.def Info: ./img/scheme_2.png  used on input line 57.
+(pdftex.def)             Requested size: 386.04523pt x 90.94044pt.
+<./img/scheme_3.png, id=48, 1176.395pt x 375.4025pt>
+File: ./img/scheme_3.png Graphic file (type png)
+<use ./img/scheme_3.png>
+Package pdftex.def Info: ./img/scheme_3.png  used on input line 68.
+(pdftex.def)             Requested size: 352.92123pt x 112.62161pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 77.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 77.
+ [2 <./img/scheme_1.png> <./img/scheme_2.png>]
+<./img/scheme_4.png, id=57, 1284.8pt x 670.505pt>
+File: ./img/scheme_4.png Graphic file (type png)
+<use ./img/scheme_4.png>
+Package pdftex.def Info: ./img/scheme_4.png  used on input line 90.
+(pdftex.def)             Requested size: 385.44298pt x 201.15305pt.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 100.
 Package babel Info: Redefining russian shorthand "~
@@ -1001,319 +967,140 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 100.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 100.
- [2]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 107.
-LaTeX Font Info:    Try loading font information for T2A+pcr on input line 107.
+ [3 <./img/scheme_3.png>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 117.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 117.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 120.
+ [4 <./img/scheme_4.png (PNG copy)>]
+<./img/scheme_5.png, id=70, 760.8425pt x 381.425pt>
+File: ./img/scheme_5.png Graphic file (type png)
+<use ./img/scheme_5.png>
+Package pdftex.def Info: ./img/scheme_5.png  used on input line 131.
+(pdftex.def)             Requested size: 304.3316pt x 152.56729pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 136.
+<./img/scheme_6.png, id=71, 1606.0pt x 790.955pt>
+File: ./img/scheme_6.png Graphic file (type png)
+<use ./img/scheme_6.png>
+Package pdftex.def Info: ./img/scheme_6.png  used on input line 145.
+(pdftex.def)             Requested size: 481.80373pt x 237.28833pt.
 
-LaTeX Font Info:    No file T2Apcr.fd. on input line 107.
-
-
-LaTeX Font Warning: Font shape `T2A/pcr/m/n' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 107.
-
-
-LaTeX Font Warning: Font shape `T2A/pcr/bx/n' undefined
-(Font)              using `T2A/pcr/m/n' instead on input line 108.
-
-<./img/blockchain_scheme.png, id=123, 820.06375pt x 191.71625pt>
-File: ./img/blockchain_scheme.png Graphic file (type png)
-<use ./img/blockchain_scheme.png>
-Package pdftex.def Info: ./img/blockchain_scheme.png  used on input line 130.
-(pdftex.def)             Requested size: 369.02528pt x 86.2715pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 143.
-[3 <./img/blockchain_scheme.png (PNG copy)>]
-<./img/previous_hash_chain.png, id=148, 838.13126pt x 268.00125pt>
-File: ./img/previous_hash_chain.png Graphic file (type png)
-<use ./img/previous_hash_chain.png>
-Package pdftex.def Info: ./img/previous_hash_chain.png  used on input line 154.
-
-(pdftex.def)             Requested size: 377.15558pt x 120.59944pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 162.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 162.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 178.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 178.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 182.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 182.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 182.
- [4 <./img/previous_hash_chain.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 187.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 232.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 232.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 232.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 232.
- [5]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 253.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 253.
-<./img/conflict_resolving.png, id=198, 823.075pt x 451.6875pt>
-File: ./img/conflict_resolving.png Graphic file (type png)
-<use ./img/conflict_resolving.png>
-Package pdftex.def Info: ./img/conflict_resolving.png  used on input line 259.
-(pdftex.def)             Requested size: 288.08057pt x 158.09299pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 269.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 269.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 269.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 269.
- [6 <./img/conflict_resolving.png (PNG copy)>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 280.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 280.
-<./img/p2p_communication.png, id=221, 962.59625pt x 355.3275pt>
-File: ./img/p2p_communication.png Graphic file (type png)
-<use ./img/p2p_communication.png>
-Package pdftex.def Info: ./img/p2p_communication.png  used on input line 293.
-(pdftex.def)             Requested size: 385.03168pt x 142.12846pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 301.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 301.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 308.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 308.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 308.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 308.
- [7 <./img/p2p_communication.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 347.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 347.
-<./img/architecture.png, id=239, 390.45876pt x 176.66pt>
-File: ./img/architecture.png Graphic file (type png)
-<use ./img/architecture.png>
-Package pdftex.def Info: ./img/architecture.png  used on input line 353.
-(pdftex.def)             Requested size: 195.2289pt x 88.32977pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 358.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 358.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 360.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 360.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 363.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 363.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 363.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 363.
- [8]
-<./img/signature.png, id=271, 949.5475pt x 492.84125pt>
-File: ./img/signature.png Graphic file (type png)
-<use ./img/signature.png>
-Package pdftex.def Info: ./img/signature.png  used on input line 368.
-(pdftex.def)             Requested size: 427.29242pt x 221.7765pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 378.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 378.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 378.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 378.
- [9 <./img/architecture.png (PNG copy)> <./img/signature.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 381.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 381.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 397.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 397.
-<./img/transactions.png, id=281, 961.5925pt x 254.9525pt>
-File: ./img/transactions.png Graphic file (type png)
-<use ./img/transactions.png>
-Package pdftex.def Info: ./img/transactions.png  used on input line 403.
-(pdftex.def)             Requested size: 432.71263pt x 114.72755pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 408.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 408.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 420.
-
-[10 <./img/transactions.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 424.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 424.
-<./img/trans_lock.png, id=299, 431.6125pt x 228.855pt>
-File: ./img/trans_lock.png Graphic file (type png)
-<use ./img/trans_lock.png>
-Package pdftex.def Info: ./img/trans_lock.png  used on input line 442.
-(pdftex.def)             Requested size: 194.22382pt x 102.9838pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 447.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 447.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 459.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 459.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 459.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 459.
- [11 <./img/trans_lock.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 459.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 459.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 477.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 477.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 502.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 502.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 502.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 502.
- [12]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 507.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 507.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 539.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 539.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 542.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 542.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 542.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 542.
- [13]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 577.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 577.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 581.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 581.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 594.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 594.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 594.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 594.
- [14]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 640.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 640.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 643.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 643.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 643.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 643.
-
-[15]
-Overfull \hbox (12.24701pt too wide) in paragraph at lines 655--656
-[]\T2A/pcr/bx/n/10 Валидация тран-зак-ции с ко-ин-ба-зой немно-го от-ли-ча-ет-с
-я от про-вер-ки "нор-маль-ной"транзакции: 
+Overfull \hbox (48.18373pt too wide) in paragraph at lines 145--146
+ [][] 
  []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 151.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 151.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 151.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 151.
+[5 <./img/scheme_5.png (PNG copy)>]
+<./img/scheme_7.png, id=77, 1228.59pt x 1033.8625pt>
+File: ./img/scheme_7.png Graphic file (type png)
+<use ./img/scheme_7.png>
+Package pdftex.def Info: ./img/scheme_7.png  used on input line 155.
+(pdftex.def)             Requested size: 307.14674pt x 258.465pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 160.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 160.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 166.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 166.
+<./img/scheme_8.png, id=78, 1278.7775pt x 517.935pt>
+File: ./img/scheme_8.png Graphic file (type png)
+<use ./img/scheme_8.png>
+Package pdftex.def Info: ./img/scheme_8.png  used on input line 174.
+(pdftex.def)             Requested size: 319.69359pt x 129.48343pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 183.
+ [6 <./img/scheme_6.png (PNG copy)>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 183.
+
+[7 <./img/scheme_7.png> <./img/scheme_8.png (PNG copy)>]
+<./img/scheme_9.png, id=94, 1606.0pt x 778.91pt>
+File: ./img/scheme_9.png Graphic file (type png)
+<use ./img/scheme_9.png>
+Package pdftex.def Info: ./img/scheme_9.png  used on input line 195.
+(pdftex.def)             Requested size: 401.49902pt x 194.72702pt.
 
 
 LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 686.
+(Font)              using `T2A/ptm/m/n' instead on input line 218.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 690.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 690.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 690.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 690.
-[16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
- (./lab1_ex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
-Package rerunfilecheck Info: File `lab1_ex.out' has not changed.
-(rerunfilecheck)             Checksum: CB52E0ADEBFAFD052639EF04F75C65B8;5837.
+(babel)             in language  on input line 223.
+[8 <./img/scheme_9.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+ (./Theory.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package rerunfilecheck Info: File `Theory.out' has not changed.
+(rerunfilecheck)             Checksum: 7B7098A2E94F3256F02C7A1C725F0A2E;1799.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 12783 strings out of 492982
- 175224 string characters out of 6134895
- 334439 words of memory out of 5000000
- 15891 multiletter control sequences out of 15000+600000
- 13916 words of font info for 32 fonts, out of 8000000 for 9000
+ 10317 strings out of 492982
+ 141753 string characters out of 6134895
+ 221634 words of memory out of 5000000
+ 13743 multiletter control sequences out of 15000+600000
+ 10093 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,40p,762b,1099s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,32p,1556b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm2074.pfb>
-Output written on lab1_ex.pdf (16 pages, 339079 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Theory.pdf (8 pages, 346069 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 314 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
